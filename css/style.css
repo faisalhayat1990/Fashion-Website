@@ -1,0 +1,254 @@
+/* ______ Hero Section ______ */
+.section-hero {
+  background-color: antiquewhite;
+  border-radius: 32px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 2.4rem;
+  padding-left: 9.6rem;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-title::after {
+  content: "";
+  background-color: var(--yellow);
+  width: 42rem;
+  height: 11rem;
+  position: absolute;
+  top: 38.5%;
+  left: 10%;
+  transform: rotate(-2deg);
+  z-index: -1;
+}
+
+.hero-img {
+  width: 100%;
+  padding: 1.4rem 2.4rem 0 0;
+}
+
+.btn--hero {
+  width: 24rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: none;
+  margin-top: 2.4rem;
+
+  transition: all 0.3s;
+}
+
+.btn--hero:hover {
+  color: var(--black);
+  background-color: var(--yellow);
+}
+
+/* ______ Clients Logos ______ */
+.clients {
+  margin-top: 6.4rem;
+}
+.logobox {
+  text-align: center;
+  /* border: 1px solid var(--yellow); */
+}
+.client-logo {
+}
+
+/* ______ Arrivals ______ */
+.arrivals {
+}
+.arrivals-heading {
+  padding: 9.6rem 0 6.4rem 0;
+}
+.arrivals-card {
+}
+.arrivals-imgbox {
+}
+.arrivals-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.arrivals-cardcontent {
+  padding: 3.2rem 0;
+}
+.arrivals-cardcontent-grid {
+  display: grid;
+  column-gap: 1.2rem;
+  grid-template-columns: 9fr 1fr;
+  align-items: center;
+}
+.arrivals-header {
+}
+.product-title {
+  padding-bottom: 1.2rem;
+  color: var(--black);
+}
+.arrivals-arrow {
+}
+
+/* ______ Sales ______ */
+.sales {
+  background-color: var(--yellow);
+  margin-top: 9.6rem;
+  padding-top: 9.6rem;
+}
+.sales-imgbox {
+}
+.sales-img {
+  width: 100%;
+}
+.sales-textbox {
+  position: relative;
+  z-index: 0;
+}
+.sales-textbox::after {
+  content: "";
+  background-color: var(--white);
+  width: 44rem;
+  height: 11rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-2deg);
+  z-index: -1;
+}
+
+.sales-desc {
+  padding: 3.2rem 0;
+  line-height: 1.5;
+}
+.boldtext {
+  font-weight: 600;
+  color: var(--black);
+}
+.btn--sales {
+  width: 24rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: none;
+
+  transition: all 0.3s;
+}
+.btn--sales:hover {
+  color: var(--black);
+  background-color: var(--white);
+}
+
+/* ______ Fav ______ */
+.fav {
+}
+.fav-heading {
+  padding: 12.8rem 0 6.4rem 0;
+}
+.fav-card {
+}
+.fav-imgbox {
+}
+.fav-img {
+  width: 100%;
+  border-radius: 10px;
+}
+.fav-cardcontent {
+  padding: 3.2rem 0;
+}
+.fav-cardcontent-grid {
+  display: grid;
+  column-gap: 1.2rem;
+  grid-template-columns: 9fr 1fr;
+  align-items: center;
+}
+.fav-header {
+}
+.product-title {
+  padding-bottom: 1.2rem;
+  color: var(--black);
+}
+.fav-arrow {
+}
+
+/* ______ App ______ */
+.app {
+  /* background-color: var(--yellow); */
+  margin: 9.6rem 0;
+  /* padding-top: 9.6rem; */
+}
+.app-imgbox {
+  text-align: center;
+}
+.app-img {
+  width: 70%;
+}
+.app-textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4.8rem;
+  padding-left: 12.8rem;
+}
+
+.app-desc {
+  line-height: 1.5;
+}
+.app-links {
+  display: flex;
+  gap: 1.8rem;
+}
+
+.applink-img {
+  transition: all 0.3s;
+}
+.applink-img:hover {
+  transform: scale(0.95);
+}
+
+/* ______ Join ______ */
+.join {
+  background-color: var(--yellow);
+  padding: 12.8rem 0;
+  text-align: center;
+}
+.join-title {
+  padding-bottom: 3.2rem;
+  color: var(--white) !important;
+  font-weight: 700;
+  text-shadow: 3px 3px 20px #e5a347;
+}
+.join-desc {
+  padding-bottom: 4.8rem;
+  color: var(--white);
+}
+input {
+  width: 38rem;
+  height: 6.6rem;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  font-size: 1.8rem;
+  padding: 1.2rem 1.8rem;
+}
+.btn--form {
+  font-size: 2rem;
+  padding: 1.8rem 3.6rem;
+  background-color: var(--black);
+  color: var(--white);
+  width: 12rem;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: none;
+  /* margin-top: 2.4rem; */
+  border-radius: 0 10px 10px 0;
+
+  transition: all 0.3s;
+}
+.btn--form:hover {
+  color: var(--black);
+  background-color: #e5a347;
+}
+.form-join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
